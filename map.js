@@ -1,5 +1,20 @@
-const el=document.getElementsByTagName("div")
+const converteInt=(e)=>parseInt(e)
+const dobrar=(e)=>e*2
+let num=['1','2','3','4'].map(dobrar) 
+console.log(num)
 
-el.map((e,i)=>{
-    console.log(e)
-})
+
+// const converteInt=(e)=>parseInt(e)
+// let num=['1','2','3','4'].map(converteInt) 
+// console.log(num)
+
+// const el=document.getElementsByTagName("div")
+// const val=Array.prototype.map.call(el,({innerHTML})=>innerHTML)
+// console.log(val)
+
+
+// let el=document.getElementsByTagName("div")
+// el=[...el]
+// el.map((e,i)=>{
+//     e.innerHTML="cbf cursos"
+// })
